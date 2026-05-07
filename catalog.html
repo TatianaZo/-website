@@ -1,0 +1,27 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Каталог — BONITE</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="catalog">
+  <header class="site-header"><div class="container header-inner"><a class="logo" href="index.html">BONITE</a><button class="burger">☰</button><nav class="nav"><a href="index.html">Главная</a><a href="catalog.html">Каталог</a><a href="category.html">Категории</a><a href="contacts.html">Контакты</a></nav><div class="header-icons"><a class="icon-btn" href="catalog.html">⌕</a><a class="icon-btn" href="review.html">♡</a><a class="icon-btn" href="cart.html">🛒</a></div></div></header>
+  <section class="section">
+    <div class="container">
+      <h1 id="catalog-title">Каталог</h1>
+      <p id="catalog-subtitle">Все товары BONITE.</p>
+      <div class="panel catalog-search-wrap" style="margin-bottom: 1rem;">
+        <label for="catalog-search">Поиск по товарам</label>
+        <input id="catalog-search" type="search" placeholder="Например: Адорэбель, Майн, Валенсия..." />
+      </div>
+      <div id="catalog-grid" class="grid grid-4"></div>
+      <p id="catalog-empty" class="panel" style="display:none; margin-top: 1rem;">По вашему запросу ничего не найдено. Попробуй другое название.</p>
+    </div>
+  </section>
+  <footer class="site-footer"><div class="container footer-grid"><div><div class="logo">BONITE</div><p>Премиальный интернет-магазин украшений.</p></div><div class="footer-links"><a href="delivery-payment.html">Доставка и оплата</a><a href="privacy-policy.html">Политика конфиденциальности</a><a href="offer-agreement.html">Договор оферты</a></div><div class="footer-links"><a href="returns.html">Возврат товара</a><a href="copyright.html">Авторские права</a><a href="wearing-rules.html">Правила ношения</a></div></div></footer>
+  <script src="products-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
